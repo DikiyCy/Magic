@@ -1,0 +1,44 @@
+.help {
+    min-height: 748px;
+    background: url('../img/s3__bd.jpg') center center/cover no-repeat;
+    .container {
+        padding: 36px 0 94px 0;
+    }
+    &__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 53px;
+        color: #F4F4F4;
+        text-align: center;
+        margin-bottom: 68px;
+    }
+    &__descr {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    &__cont {
+        margin-left: 22px;
+        margin-right: 28px;
+        max-width: 502px;
+        height: 490px;
+        overflow: hidden;
+        min-width: 321px;
+    }
+    &__img {
+        width: 100%;
+    }
+    &__text {
+        max-width: 639px;
+        font-size: 20px;
+        line-height: 22px;
+        color: #f4f4f4;
+    }
+
+    &__small {
+        font-size: 14px;
+        line-height: 22px;
+        color: #F4F4F4;
+    }
+}
